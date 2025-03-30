@@ -38,11 +38,11 @@ CREATE TABLE teachers (
 **How the Program Works**
 1) When you run the program, a GUI window opens.
 
-2)You can add, update, delete, and search for teacher records.
+2) You can add, update, delete, and search for teacher records.
 
-3)Clicking "Next" switches to the Search Page.
+3) Clicking "Next" switches to the Search Page.
 
-4)Clicking "Back" switches back to the Manage Teacher Page.
+4) Clicking "Back" switches back to the Manage Teacher Page.
 
-5)Clicking "Send Mail" sends an email (you need to configure the sender email properly).
+5) Clicking "Send Mail" sends an email (you need to configure the sender email properly).
 
