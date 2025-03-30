@@ -26,14 +26,14 @@ CREATE DATABASE preexam;
 
 **Create the teachers table:**
 
-CREATE TABLE teachers (
-
+    CREATE TABLE teachers (
     uid_no VARCHAR(20) PRIMARY KEY,
     name VARCHAR(100),
     email VARCHAR(100),
     contactno VARCHAR(15),
     subject VARCHAR(50)
-);
+    );
+
 
 
 **How the Program Works**
@@ -46,4 +46,22 @@ CREATE TABLE teachers (
 4) Clicking "Back" switches back to the Manage Teacher Page.
 
 5) Clicking "Send Mail" sends an email (you need to configure the sender email properly).
+
+**Enable App Passwords**
+
+1) Go to your Google Account → Google App Passwords.
+
+2) Sign in (if required).
+
+3) Generate an "App Password":
+
+4) Select "Mail" as the app.
+
+5) Select "Other (Custom name)", type "Teacher Management", and click Generate.
+
+6) Copy the 16-character password shown on the screen.
+
+7) Update your Python code, replacing.
+
+8) Restart your program and test email sending again.
 
