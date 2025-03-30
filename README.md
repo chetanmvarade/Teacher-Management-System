@@ -2,21 +2,21 @@
 
 Features of the Program :-
 
-1)Add Teacher: Adds a teacher's details (UID, Name, Email, Contact, Subject) into the database.
+1) Add Teacher: Adds a teacher's details (UID, Name, Email, Contact, Subject) into the database.
 
-2)Update Teacher: Updates an existing teacher's details.
+2) Update Teacher: Updates an existing teacher's details.
 
-3)Delete Teacher: Deletes a teacher’s record.
+3) Delete Teacher: Deletes a teacher’s record.
 
-4)Clear Fields: Clears all input fields.
+4) Clear Fields: Clears all input fields.
 
-5)Search Teacher: Searches for teachers by UID or Name.
+5) Search Teacher: Searches for teachers by UID or Name.
 
-6)Display All Teachers: Fetches and displays all teacher records from the database.
+6) Display All Teachers: Fetches and displays all teacher records from the database.
 
-7)Send Email: Sends an email to the selected teacher.
+7) Send Email: Sends an email to the selected teacher.
 
-8)Navigation Between Pages: Switches between Manage Teacher and Search Teacher pages.
+8) Navigation Between Pages: Switches between Manage Teacher and Search Teacher pages.
 
 **Set Up MySQL Database**
 
@@ -27,6 +27,7 @@ CREATE DATABASE preexam;
 **Create the teachers table:**
 
 CREATE TABLE teachers (
+
     uid_no VARCHAR(20) PRIMARY KEY,
     name VARCHAR(100),
     email VARCHAR(100),
