@@ -1,4 +1,4 @@
-**This is a Teacher Management System using Python's Tkinter for the GUI and MySQL (via pymysql) as the database.**
+**This is a Teacher Management System using Python's Tkinter for the GUI and MySQL (via pymysql) as the database. **
 
 Features of the Program :-
 
